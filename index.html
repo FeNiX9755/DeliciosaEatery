@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deliciosa Eatery </title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <!--- navigation bar --->
+        <nav id="navbar" class="navbar">
+            <!-- <a class="logo" href="#">HARU</a> -->
+            <div id="home_logo">
+                <img src="assets/DeliciosaEatery.jpg" style="
+                border-radius: 100px;
+                cursor: pointer;
+            ">
+            </div>
+            <div style="width: 72vw;text-align: center;position: relative">
+                <h2 style="color: lime;">
+                    Deliciosa Eatery
+                </h2>
+            </div>
+            <!-- <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <li><a href="#about_haru"><strong>About</strong></a></li>
+                <li><a href="#menu_haru"><strong>Menu</strong></a></li>
+                <li><a href="#gallery_haru"><strong>Gallery</strong></a></li>
+                <li><a href="#contact_haru"><strong>Contact</strong></a></li>
+            </div> -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <div class="nav-menu">
+                    <a href="#about_haru"><strong>About</strong></a>
+                    <a href="#menu_haru"><strong>Menu</strong></a>
+                    <a href="#gallery_haru"><strong>Gallery</strong></a>
+                    <a href="#contact_haru"><strong>Contact</strong></a>
+                </div>
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>
+                <strong>Hello,
+                </strong>
+            </h1>
+            <div id="text" class="container">
+                Welcome to
+                <span style="color: green;">Deliciosa Eatery</span>, <span class="auto-type"></span>
+            </div>
+            <!-- <a href="#menu_haru" class="hero-btn">View Menu</a> -->
+            <a href="#menu_haru">
+                <button class="viewMenuBtn"><span>#View Menu</span></button>
+            </a>
+        </div>
+        <div id="loader" style="background-color: black"></div>
+    </section>
+
+    <section class="haru_sections" id="about_haru">
+        <h1><u>About Us</u></h1>
+        <div id="aboutDiv">
+            <div class="image-container">
+                <img src="assets/drinks_1.jpg" alt="About Image" style="background-size: cover">
+            </div>
+            <div class="about-container" style="color: black;">
+                <h1>Deliciosa Eatery</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,
+                    eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+                <br>
+                <br>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,
+                    eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+                <br>
+                <br>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,
+                    eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="haru_sections" id="menu_haru">
+        <h1><u>Menu</u></h1>
+        <div id="menuDiv">
+            <div class="menu-container">
+                <h1>Starter</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Starter</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Main</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Main</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Main</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Main</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Drinks</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Drinks</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Desert</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="menu-container">
+                <h1>Desert</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="haru_sections" id="gallery_haru">
+        <h1><u>Gallery</u></h1>
+        <div class="gallery-container"></div>
+    </section>
+
+    <section class="haru_sections" id="haru_sections">
+        <h1><u>Contact</u></h1>
+    </section>
+
+    <section class="contact_haru" id="contact_haru">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <span>
+                        <p>28 Faan Ferreira Ave, Spitskop Small Holdings, Bloemfontein</p>
+                        <a href="https://maps.app.goo.gl/twwZGg6oNGxHk8dR6" target="_blank" rel="noreferrer noopener">
+                            <button class="cta">
+                                <span class="span">Directions</span>
+                                <span class="second">
+                                    <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <path class="one"
+                                                d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                                fill="#FFFFFF"></path>
+                                            <path class="two"
+                                                d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                                fill="#FFFFFF"></path>
+                                            <path class="three"
+                                                d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                                fill="#FFFFFF"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </button>
+                        </a>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <a href="tel:+27798760668">
+                            <h5>+2779 876 0668</h5>
+                        </a>
+
+                        <p>Monday - Saturday, 11AM - 9PM</p>
+                        <p>Sunday, 11AM - 8PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-whatsapp"></i>
+                    <span>
+                        <a href="https://web.whatsapp.com/send?phone=+27798760668" target="_blank"
+                            rel="noreferrer noopener">
+                            <h5>+2779 876 0668</h5>
+                        </a>
+                        <p>Deliciosa Eatery</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-facebook"></i>
+                    <span>
+                        <a href="https://www.facebook.com/profile.php?id=100088169078000" target="_blank"
+                            rel="noreferrer noopener">
+                            <h4>Deliciosa Eatery</h4>
+                        </a>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-instagram"></i>
+                    <span>
+                        <a href="https://www.instagram.com/Deliciosa_eatery/?fbclid=IwZXh0bgNhZW0CMTAAAR0vErW46VbU5sRIeaYcF_uj4NscdoiqStzyg2aeL5EZD8ph-e2W2inA0Ro_aem_qaB7zDR98WafajzWL5ThpQ"
+                            target="_blank" rel="noreferrer noopener">
+                            <h4>Deliciosa Eatery</h4>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Copyright © DevFnX</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/chris-wang-2604b4160/" target="_blank"><i
+                    class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> <a class="logo1" href="#">DevFnX</a> </p>
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/index.js"></script>
+
+</html>
