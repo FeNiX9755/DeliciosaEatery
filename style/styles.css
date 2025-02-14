@@ -248,7 +248,7 @@ nav .fa {
     .nav-links {
         position: fixed;
         background-color: darkslategray;
-        height: 26vh;
+        height: 18vh;
         width: 100px;
         top: 0;
         right: -200px;
@@ -482,6 +482,11 @@ nav .fa {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+    }
+
+    .row, .row2 {
+        display: flex;
+        flex: 1;
     }
 }
 
