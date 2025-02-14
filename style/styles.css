@@ -240,7 +240,7 @@ nav .fa {
     }
 }
 
-@media (min-width: 701px) and (max-width: 1024px) {
+@media (min-width: 701px) and (max-width: 899px) {
     .text-box h1 {
         font-size: 28px;
         /* Slightly bigger for tablets */
@@ -436,7 +436,7 @@ nav .fa {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 899px) {
     .about-container {
         flex-direction: row;
         /* Adjust to row layout for better spacing */
