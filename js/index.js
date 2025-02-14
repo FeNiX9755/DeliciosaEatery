@@ -1,4 +1,3 @@
-alert("Screen Width: " + window.innerWidth + "px\nScreen Height: " + window.innerHeight + "px");
 var navLinks = document.getElementById("navLinks");
 function showMenu() {
     navLinks.style.right = "0";
